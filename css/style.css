@@ -1,0 +1,683 @@
+
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500&display=swap');
+
+    body {
+      font-family: 'Noto Sans KR', sans-serif;
+    }
+
+    #wrap {
+      width: 100%;
+      font-size: 40px;
+    }
+
+    .header_wrap {
+      width: 100%;
+      background: transparent;
+      height: 78.75px;
+      position: absolute;
+      z-index: 2;
+      margin-top: 44px;
+      margin-left: -38px;
+    }
+
+    .main_visual_wrap img {
+      width: 100%;
+      height: 100vh;
+      position: relative;
+
+    }
+
+    .section1_category {
+      width: 100%;
+    }
+
+    .section1_category img {
+      width: 280px;
+      height: 180px;
+      position: absolute;
+    }
+
+    .category1 img {
+      top: 770px;
+      left: 165px;
+
+    }
+
+    .category2 img {
+      top: 770px;
+      left: 463px;
+    }
+
+    .category3 img {
+      top: 770px;
+      left: 757px;
+    }
+
+    .category4 img {
+      top: 770px;
+      left: 1049px;
+    }
+
+    .content1_wrap {
+      width: 100%;
+      background: white;
+      height: 1100px;
+      margin-bottom: 100px;
+    }
+
+
+    .content2_wrap {
+      width: 100%;
+      background: white;
+      height: 900px;
+      margin-left: 27px;
+    }
+
+    .footer_wrap {
+      width: 100%;
+      background: #222222;
+      height: 350px;
+    }
+
+    .inner {
+      width: 100%;
+      max-width: 1200px;
+      height: inherit;
+      margin: auto;
+      background: transparent;
+    }
+
+    .top_black_footer {
+      background-color: #222222;
+      width: 100%;
+      background: #222222;
+      height: 230px;
+    }
+
+    .bottom_black_footer {
+      background-color: #222222;
+      width: 100%;
+      background: #222222;
+      height: 30px;
+      border-top: 0.3px solid gray;
+    }
+
+    .main_visual_wrap img {
+      size: 100%
+    }
+
+
+    .ethics_wrap {
+      display: flex;
+      flex-direction: column;
+    }
+
+    li {
+      list-style: none;
+      font-size: 16px;
+      text-decoration: none;
+      display: inline;
+    }
+
+    a {
+      list-style: none;
+      font-size: 16px;
+      text-decoration: none;
+      display: inline;
+    }
+
+    .top_menu_bar {
+      display: flex;
+      justify-content: space-evenly;
+    }
+
+  
+    .logo {
+    width: 120;
+    height: 26px;
+    margin-top: -7px;
+    margin-left: -15px;
+}
+
+    .logo a {
+      margin-left: 15px;
+      margin-right: 50px;
+    }
+
+    .gnb_1dep {
+      display: flex;
+      margin-top: 8px;
+      margin: 8px;
+    }
+    .tab_li {
+      position: relative;
+    }
+    #tab1_depth {
+      position: absolute;
+      top: 40px;
+    }
+
+    .gnb_1dep a {
+      color: white;
+      padding-right: 70px;
+      font-size: 18px;
+
+    }
+
+    .utility_wrap {
+    display: flex;
+    margin-top: 9px;
+    margin-left: -20px;
+}
+
+    .language a {
+      color: white;
+    }
+
+    .search_icon {
+      display: flex;
+      width: 21px;
+      height: 27px;
+      margin: 11px;
+      margin-top: -5px;
+      margin-left: 23px;
+    }
+
+    .top_right_lines {
+      display: flex;
+      width: 6px;
+      height: 25px;
+      margin: 4px;
+      margin-left: 4px;
+      margin-top: -4px;
+    }
+
+    .section1_category {
+      display: flex;
+    }
+
+    .content1_wrap {
+      display: block;
+    }
+
+    .ethics_wrap {
+      display: flex;
+    }
+
+    .footer_list p {
+      font-size: 14px;
+    }
+
+    .ethics_title {
+      margin-top: 100px;
+      text-align: center;
+      font-size: 18px;
+    }
+
+    p {
+      font-size: 25px;
+    }
+
+    button {
+      font-size: 18px;
+    }
+
+    .ethics_list {
+      margin-top: 30px;
+      display: flex;
+      position: relative;
+      margin-left: 0px;
+      width: 100%;
+      justify-content: center;
+    }
+
+
+    .ethics_list_wrap {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .ethics_list_wrap1 {
+      display: flex;
+    }
+
+    .ethics_list_wrap2 {
+      display: flex;
+      position: relative;
+    }
+
+    .ethics_list_wrap1 a,
+    .ethics_list_wrap2 a,
+    .ethics7 a {
+      text-align: left;
+      display: block;
+      position: relative;
+      width: 100%;
+      height: 100%;
+      margin-right: 20px;
+    }
+
+    .ethics_list_wrap1 a .big,
+    .ethics_list_wrap2 a .big,
+    .ethics7 .big {
+      position: absolute;
+      top: 20px;
+      left: 40px;
+      font-size: 2em;
+      color: white;
+    }
+
+    .ethics1 p.big {
+      position: absolute;
+      top: 20px;
+      left: 40px;
+      font-size: 2em;
+      color: white;
+    }
+
+    .newstable {
+      display: flex;
+      margin-top: -30px;
+    }
+
+
+    .news_list img {
+      width: 280px;
+      height: 280px;
+    }
+
+    .red_underline {
+      color: red;
+      text-decoration: underline;
+      font-size: 20px;
+    }
+
+    .newsroom {
+      text-align: center;
+
+    }
+
+    .news_menu_list {
+      color: gray;
+      text-align: center;
+      font-size: 20px;
+      margin-bottom: 20px;
+      padding: 20px;
+    }
+
+    .news_menu_list li {
+      padding: 20px;
+    }
+
+    .menu_font {
+      font-size: 20px;
+      color: black;
+    }
+
+    hr {
+      color: rgb(219, 216, 216);
+      size: 0.2px;
+    }
+
+    .white_footer_wrap {
+      border-top: 0.3px solid gray;
+    }
+
+    .white_footer {
+      background-color: white;
+      padding: 10px;
+      width: 100%;
+      text-align: center;
+      margin-left: 49px;
+      display: flex;
+    }
+
+    .white_footer a {
+      color: black;
+
+    }
+
+    .bold {
+      font-weight: bold;
+    }
+
+    .logo_menu {
+      margin-left: 0px;
+      margin-top: 5px;
+      display: flex;
+      padding: 12px;
+      justify-content: space-evenly;
+    }
+
+    .logo_menu img {
+      margin-left: -40px;
+      margin-top: 60px;
+    }
+
+    .red {
+      color: red;
+    }
+
+    .white {
+      color: #D2D2D2;
+      font-size: 14px;
+    }
+
+    .address {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .ethics1 a {
+      position: relative;
+    }
+
+    .image_background {
+      position: absolute;
+    }
+
+    .stock_price {
+      margin-right: 30px;
+      margin-left: 30px;
+    }
+
+    .report_data {
+      margin-right: 30px;
+    }
+
+    .light_gray {
+      color: #777777;
+    }
+
+    .logo_menu_list {
+      margin-left: 895px;
+      margin-top: -4px;
+      margin-right: -68px;
+    }
+
+    .logo_menu_list a {
+      color: #f3eeee;
+      font-size: 18px;
+      font-weight: bold;
+    }
+
+    .logo_menu_list img {
+      margin-bottom: -4px;
+      margin-left: -2px;
+      width: 20px;
+      margin-right: 12px;
+    }
+
+    .right {
+      margin-left: 1194px;
+      margin-top: -39px;
+
+    }
+
+
+    .right a {
+      font-size: 14px;
+      margin: 5px;
+    }
+
+    .left {
+      font-size: 7px;
+      color: #777777;
+      margin-left: 65px;
+      margin-top: 20px;
+    }
+
+    .copyright {
+      color: #777777;
+      font-size: 14px;
+      margin-left: 70px;
+      margin-top: 37px;
+    }
+
+    .footer_bottom {
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-between;
+    }
+
+    .family_site {
+      margin-left: -822px;
+      margin-right: 20px;
+    }
+
+    .family_site a {
+      color: #D2D2D2;
+      font-size: 14px;
+      border: 1px solid gray;
+      padding: 12px;
+      margin-left: 43px;
+      margin-right: 26px;
+      height: -22px;
+    }
+
+    .family_site img {
+      height: 13px;
+      width: 19px;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      overflow-y: scroll;
+      width: 100%;
+      height: 100%;
+    }
+
+    ul {
+      list-style: none;
+    }
+
+    #brandVisual {
+      width: 100%;
+      overflow: hidden;
+      height: 900px;
+      min-width: 1000px;
+      background-color: transparent;
+      position: relative;
+    }
+
+    #brandVisual ul {
+      position: relative;
+      width: 100%;
+      height: 900px;
+      display: flex;
+    }
+
+    #brandVisual ul li {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      font-size: 5em;
+    }
+
+    #brandVisual img {
+      width: 100%;
+      height: 100%;
+    }
+
+    .visual_0 {
+      left: 0%;
+      background: transparent;
+    }
+
+
+    .visual_1 {
+      left: 100%;
+      background: transparent;
+    }
+
+    .visual_2 {
+      left: 200%;
+      background: transparent;
+    }
+
+    #buttonList {
+      display: flex;
+      position: absolute;
+      width: 100%;
+      bottom: -30px;
+      justify-content: center; 
+      gap : 40px;
+    }
+
+    #buttonList img {
+      width: 280px;
+      height: 180px;
+    }
+
+    .sub_main {
+      position: relative;
+    }
+
+    .visual_text { 
+      position: absolute;
+      bottom: 10px;
+      width: 100%;
+      text-align: center;
+      color: #FFFFFF;
+      font-size: 24px;
+    }
+    .sub_main:hover > .button1 > .layer {
+      background-color: rgba(0, 0, 0, 0.4);
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0; left: 0;
+    }
+    .sub_main:hover > .button2 > .layer {
+      background-color: rgba(0, 0, 0, 0.4);
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0; left: 0;
+    }
+    .sub_main:hover > .button3 > .layer {
+      background-color: rgba(0, 0, 0, 0.4);
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0; left: 0;
+    }
+    .sub_main:hover > .button4 > .layer {
+      background-color: rgba(0, 0, 0, 0.4);
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0; left: 0;
+    }
+
+    .sub_main:hover .visual_text {
+      bottom: 60px;
+    }
+
+    .main_visual_wrap {
+      position: relative; 
+      
+    
+    }
+
+    #buttonList a {
+      text-decoration: none;
+      text-align: center;
+    }
+
+    .controls {
+      display: flex;
+      position: absolute;
+
+    }
+
+    .button1 {
+      width: 280px;
+      height: 180px;
+    }
+
+
+    .button2 {
+      width: 280px;
+      height: 180px;
+    }
+    
+
+    .button3 {
+      width: 280px;
+      height: 180px;
+    }
+
+
+    .button4 {
+      width: 280px;
+      height: 180px;
+    }
+
+
+    .dep2-1 {
+      display: flex;
+      flex-direction: row;
+    }
+
+    .dep2-1-bold,
+    .dep2-2-bold,
+    .dep2-3-bold,
+    .dep2-4-bold,
+    .dep2-5-bold,
+    .dep2-6-bold {
+      display: flex;
+      flex-direction: row;
+    }
+
+    .dep3-1,
+    .dep3-2,
+    .dep3-3,
+    .dep3-4,
+    .dep3-5,
+    .dep3-6,
+    .dep3-7 {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .dep2-1,
+    .dep2-2,
+    .dep2-3,
+    .dep2-4,
+    .dep2-5,
+    .dep2-6 {
+      display: flex;
+      flex-direction: row;
+      display: none;
+    }
+
+    #layer {
+      display: block;
+      position: fixed;
+      width: 500px;
+      height: 500px;
+      background: rgb(248, 248, 248);
+      box-shadow: 3px 3px 10px rgba(254, 2, 2, 0.826);
+      z-index: 999999999;
+      font-size: 2.4em;
+      padding: 3em;
+      box-sizing: border-box;
+      line-height: 2;
+      top: 50px;
+      left: 150px;
+    }
+
+    #layer button {
+      position: absolute;
+      cursor: pointer;
+      padding: 10px 20px;
+      right: 0;
+      top: 0;
+      background-color: rgb(221, 18, 18);
+      color: white;
+    }
