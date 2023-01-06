@@ -131,7 +131,9 @@
       justify-content: space-evenly;
     }
 
-  
+    .utility_order{
+      display:flex;
+    }
     .logo {
     width: 120;
     height: 26px;
